@@ -1,0 +1,44 @@
+body {
+	background: lightgray;
+	color: black;
+	font-size: 18px;
+}
+
+h1 {
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+
+#container {
+	width: 586px;
+	height: auto;
+	display: inline-block;
+	background-color: gray;
+	padding: 10px;
+	border: 10px solid black;
+	border-radius: 25px;
+}
+
+#coins-display {
+	width: 475px;
+	height: auto;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+}
+
+span {
+	color: red;
+	text-decoration: underline;
+	text-shadow: 2px 3px 4px #000;
+}
+
+#input-number {
+	font-size: 2em;
+	text-decoration: none;
+}
+
+#note {
+	text-decoration: none;
+}
