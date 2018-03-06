@@ -1,0 +1,36 @@
+<!Doctype html>
+<html lang="en">
+<head>
+	<title>Money Converter</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Javascript Functions for calculations">
+	<meta name="author" content="Andre Burte">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="mc.css">
+	<script src="mc.js"></script>
+</head>
+<body>
+	<main>
+		<h1>Money Converter</h1>
+		<article>
+			<p>If ever you go to a country that has coins worth values of 16, 8, 4, 2 and 1 unit(s), 
+			this money converter may come in handy.<br>
+			<br>Enter an integer from 20 to 100 in the field below, and then click the button to see how it works.</p>
+			<div id="container">
+				<h2><span>Converter</span></h2>
+				<label for="amount">Enter the amount you would like to convert in this field:</label>
+				<input id="amount" name="amount" type="text" size="5">
+				<button onclick="convertMoney()">Click To Convert</button>
+				<div id="coins-display"></div>
+			</div>
+		</article>
+		<aside>
+			<p><em><span id="note"><strong>Note:</strong> &ensp;Remember to enter a number from 20 to 100!  
+			&ensp;Anything else will not work properly.</em></p></span>
+		</aside>
+	</main>
+	<footer>
+		&copy;2017, Andre Burte
+	</footer>
+</body>
+</html>
